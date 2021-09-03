@@ -76,7 +76,8 @@ export default function Candidate(props) {
             className="candidate_card"
           >
             <div className="candidate_info">
-            <Fab variant="extended" disabled aria-label="like" style={{ fontSize: 20 }}>
+            
+            <Fab variant="extended" disabled aria-label="add" style={{ fontSize: 20 }}>
               <h1 className="candidate_name">{candidate.name}</h1>
               </Fab>
               <h3>

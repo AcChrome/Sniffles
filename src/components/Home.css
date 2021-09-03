@@ -8,18 +8,17 @@
 
 .home_logo {
   color: brown;
-  position: fixed;
-  margin-top: 2em;
-  margin-left: -100px;
-  left: 55%; 
+  text-align: center;
+  margin-top: 5em;
 }
 
 .home_welcome {
-  position: fixed;
+  color: black;
+  margin-top: 2em;
+  /* margin-top: 5.5em;
+  text-align: center;
   left: 43%;
-  margin-top: 5.5em;
-  margin-left: -100px
-  
+  margin-left: -100px */
 }
 
 .home_newUser{
@@ -48,9 +47,9 @@
 
 .login_logo {
   color: brown;
-  margin-left: 1em;
+  
 }
 
-/* .login_logoText {
-  
-} */
+.login_title{
+  text-align: center;
+}

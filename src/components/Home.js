@@ -9,8 +9,8 @@ import DialogActions from "@material-ui/core/DialogActions";
 import DialogContent from "@material-ui/core/DialogContent";
 import DialogContentText from "@material-ui/core/DialogContentText";
 import DialogTitle from "@material-ui/core/DialogTitle";
-import Button from "@material-ui/core/Button";
 import PetsIcon from "@material-ui/icons/Pets";
+import Button from '@material-ui/core/Button';
 import { Link } from "react-router-dom";
 
 import { ThemeProvider, makeStyles } from '@material-ui/core/styles';
@@ -58,9 +58,14 @@ function Home(props) {
     <div className="home">
       <div className="home_logo">
       <PetsIcon className="home_paws" style={{ fontSize: 100 }} />
-      </div>
+      <div className="home_welcome">
+      <Button variant="outlined" color="secondary" >
+      <h1>Welcome to Sniffles!</h1>
+      </Button>
       
-      <h1 className="home_welcome">Welcome to Sniffles!</h1>
+      </div>
+      </div>
+   
       
       <div className="home_icon">
       <div>
@@ -88,7 +93,7 @@ function Home(props) {
           <DialogContent>
           
             <DialogTitle className="login_title"><PetsIcon className="login_logo" style={{ fontSize: 50 }} />
-            <span className="login_logoText">Log in to Sniffles</span>
+            <p>Log in to Sniffles</p>
             </DialogTitle>
             <DialogContentText></DialogContentText>
             <TextField

@@ -2,6 +2,13 @@ import React, { useState } from "react";
 import clsx from "clsx";
 import "./Form.css";
 import "./Register.css";
+import SaveIcon from "@material-ui/icons/Save";
+import Visibility from "@material-ui/icons/Visibility";
+import VisibilityOff from "@material-ui/icons/VisibilityOff";
+import axios from "axios";
+import Card from "@material-ui/core/Card";
+import PetsIcon from "@material-ui/icons/Pets";
+import { ThemeProvider, makeStyles } from '@material-ui/core/styles';
 
 import {
   FormControl,
@@ -16,13 +23,7 @@ import {
   InputAdornment,
   IconButton,
 } from "@material-ui/core";
-import SaveIcon from "@material-ui/icons/Save";
-import Visibility from "@material-ui/icons/Visibility";
-import VisibilityOff from "@material-ui/icons/VisibilityOff";
-import axios from "axios";
-import Card from "@material-ui/core/Card";
-import PetsIcon from "@material-ui/icons/Pets";
-import { ThemeProvider, makeStyles } from '@material-ui/core/styles';
+
 
 //import {OnCreate} from "./Register"
 
